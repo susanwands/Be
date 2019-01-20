@@ -1,0 +1,53 @@
+
+<div class="row justify-content-center align-items-end section">
+    <div class="col-auto">
+      <div class="pillar">
+        <div class="pillar-text">
+          Education
+        </div>
+        <div class="oval"></div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="pillar">
+      <div class="pillar-text">
+       The Environment
+      </div>
+      <div class="oval"></div>
+  </div>
+</div>
+<div class="col-auto">
+  <div class="pillar">
+    <div class="pillar-text">
+     Physical Activity
+    </div>
+    <div class="oval"></div>
+</div>
+</div>
+</div>
+<div class="row section">
+  
+   <div class="col-12" *ngFor="let item of list; let i = index">
+     <div class="list-item">
+     
+         <div class="row justify-content-between align-items-center" (click)="toggleDetails(i)" [class.opened]="item.display">
+            <div class="col-auto item-title" > 
+                {{item.title}}
+              </div>
+              <div class="col-auto">
+                  <i class="fas fa-angle-down" [class.show-me]="!item.display"></i>
+                  <i class="fas fa-angle-up" [class.show-me]="item.display"></i>
+              </div>
+         </div>
+         <div class="row">
+            <div class="col-12 details" [class.show-me]="item.display" >
+                {{item.type}} , {{item.status}}
+              </div>
+          </div>
+       
+       
+          
+     </div>
+     
+   </div>
+</div>

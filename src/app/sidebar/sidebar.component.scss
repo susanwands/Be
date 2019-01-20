@@ -1,0 +1,85 @@
+@import "../../variables.scss";
+.side-list{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        margin:0;
+        a{
+            background-color:$sideBackground; 
+            text-decoration: none;
+            color:$sideTextColor;
+
+            .side-link{
+                width: auto;
+                padding:20px;
+                i{
+                    margin-right:15px;
+                    display: inline;
+                    color:$primaryIconColor;
+                    font-size:24px;
+                }
+            }
+        }
+        a:hover{
+            background-color: $altSideBackground;
+            text-decoration: none;
+            color:$altSideTextColor;         
+        }
+        a.isActive{
+            color:$altIconColor;
+
+           .side-link i{
+                color:$altIconColor;
+            }
+        }
+        .side-social{
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-between;
+                a{
+                    padding:10px 0 10px 20px;  
+                    i{
+                        color:$primaryIconColor;
+                        font-size:24px; 
+                        margin-right:10px;  
+                    }     
+                }
+        }
+
+    @media (min-width: 575.98px) { 
+       .side-social{
+            display: none;
+           
+       }
+     }
+
+     @media (max-width: 575.98px) { 
+        .link-text{
+            display:inline;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+         }
+      }   
+   
+    @media (max-width: 1199.98px) { 
+       .link-text{
+           display:none;
+        }
+       
+     }
+     @media (max-width: 575.98px) { 
+        .link-text{
+            display:inline;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+         }
+      }
+     
+}
+.side-list:hover{
+    .link-text{
+        display: inline;      
+    }   
+}

@@ -1,0 +1,74 @@
+@import "variables";
+@import "node_modules/bootstrap-scss-only/scss/bootstrap.scss";
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}  
+@keyframes fadeOut {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@font-face{
+    font-family: SRegular;
+    src: url(assets/fonts/OpenSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: SLight;
+    src: url(assets/fonts/OpenSans-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: SBold;
+    src: url(assets/fonts/OpenSans-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: SSemiBold;
+    src: url(assets/fonts/OpenSans-SemiBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: SItalic;
+    src: url(assets/fonts/OpenSans-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: SRegular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:$textColor;
+    background-color: $background;
+}
+h1, h2, h3 {
+    font-family: SSemiBold;
+    color:$headerColor;
+}
+
+.show-me{
+    display: flex !important;
+    
+   /*  -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s; */
+ }

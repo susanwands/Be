@@ -1,0 +1,19 @@
+<div id="app-wrapper" >
+        <div class="top">
+           <img src="../assets/images/logo.png">
+           <app-social></app-social>
+           <div class="toggles">
+              <i class="fas fa-bars" [class.show-me]="showSidebar" (click)="toggleSidebar()"></i>
+              <i class="fas fa-times" [class.show-me]="!showSidebar" (click)="toggleSidebar()"></i>
+           </div>
+        </div>
+        <div class="bottom">
+           <div id="left" [class.show-me]="!showSidebar">
+              <app-sidebar></app-sidebar>
+           </div>
+           <div id="right" >
+              <router-outlet></router-outlet>
+           </div>
+        </div>
+</div>
+     
