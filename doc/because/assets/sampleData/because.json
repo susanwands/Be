@@ -1,0 +1,71 @@
+{
+    "company":{
+        "pillars":[{
+            "title": "Education",
+            "initiatives":[
+                {
+                    "title": "STEM in Boston",
+                    "activities":[
+                        {"title": "Girls Who Code Scholarship"},
+                        {"title": "Science Equipment Fundraiser"},
+                        {"title": "Hour of Code Volunteer Event"}
+                    ]                    
+                },
+                {
+                    "title": "Arts in Schools",
+                    "activities":[
+                        {"title": "ART Supply Drive"},
+                        {"title": "Art Gallery Fundraiser Event"},
+                        {"title": "European Arts Trip Sponsorship"}
+                    ]                    
+                },
+                {
+                    "title": "School Supplies",
+                    "activities":[
+                    {"title":"Backpack Drive"},
+                    {"title":"Great Teacher Classroom Supply Awards"}
+                    ]                    
+                }
+            ]
+        },
+        {
+            "title": "The Environment",
+            "initiatives":[
+                {
+                    "title": "Nature Clean-up",
+                    "activities":[
+                        {"title": "Beachcomber Weekend - Virgina Beach"},
+                        {"title": "Park Pick Up - Shady Grove City Park"}
+                    ]                    
+                },
+                {
+                    "title": "Recycling",
+                    "activities":[
+                        {"title": "Plastic Bag Collection Centers"},
+                        {"title": "Soda to sneakers donation event"}                        
+                    ]                    
+                }
+            ]
+        },
+        {
+            "title": "Physical Activity",
+            "initiatives":[
+                {
+                    "title": "Active Kids",
+                    "activities":[
+                        {"title": "Kids Beat Cancer Dance-a-thon"},
+                        {"title": "City Soccer Summer Camp Scholarship"},
+                        {"title": "Hour of Code Volunteer Event"}
+                    ]                    
+                },
+                {
+                    "title": "Athlete in Everyone",
+                    "activities":[
+                        {"title": "Inspiring Story Award"},
+                        {"title": "Kids Prosthetic Program"}
+                    ]                    
+                }
+            ]
+        }]
+    }
+}
