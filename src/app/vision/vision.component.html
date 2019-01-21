@@ -1,11 +1,21 @@
-
-<div class="row justify-content-center align-items-end section">
+<div class="row section-header">
+  <div class="col-12">
+    <h3>Pillars</h3>
+  </div>
+  <div class="col-12">
+      <div class="add-button">
+        <button type="button" class="btn primary-button float-right">Add Pillar</button>
+      </div>
+    </div>
+</div>
+<div class="row justify-content-around align-items-center section">
+  
     <div class="col-auto">
       <div class="pillar">
         <div class="pillar-text">
           Education
         </div>
-        <div class="oval"></div>
+        
     </div>
   </div>
   <div class="col-auto">
@@ -13,7 +23,7 @@
       <div class="pillar-text">
        The Environment
       </div>
-      <div class="oval"></div>
+      
   </div>
 </div>
 <div class="col-auto">
@@ -21,12 +31,22 @@
     <div class="pillar-text">
      Physical Activity
     </div>
-    <div class="oval"></div>
+    
 </div>
 </div>
+</div>
+<div class="row section-header">
+  <div class="col-12">
+    <h3>Initiatives</h3>
+  </div>
+  <div class="col-12">
+      <div class="add-button">
+        <button type="button" class="btn primary-button float-right" >Add Initiative</button>
+      </div>
+    </div>
 </div>
 <div class="row section">
-  
+    
    <div class="col-12" *ngFor="let item of list; let i = index">
      <div class="list-item">
      

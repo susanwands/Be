@@ -5,27 +5,110 @@
             "initiatives":[
                 {
                     "title": "STEM in Boston",
-                    "activities":[
-                        {"title": "Girls Who Code Scholarship"},
-                        {"title": "Science Equipment Fundraiser"},
-                        {"title": "Hour of Code Volunteer Event"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Girls Who Code Scholarship",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Science Equipment Fundraiser",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           },
+                           {"title":  "Hour of Code Volunteer Event",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
                 },
                 {
                     "title": "Arts in Schools",
-                    "activities":[
-                        {"title": "ART Supply Drive"},
-                        {"title": "Art Gallery Fundraiser Event"},
-                        {"title": "European Arts Trip Sponsorship"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "ART Supply Drive",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Art Gallery Fundraiser Event",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           },
+                           {"title":  "European Arts Trip Sponsorship",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
                 },
                 {
                     "title": "School Supplies",
-                    "activities":[
-                    {"title":"Backpack Drive"},
-                    {"title":"Great Teacher Classroom Supply Awards"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Backpack Drive",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Great Teacher Classroom Supply Awards",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
-                }
+                }               
+              
             ]
         },
         {
@@ -33,39 +116,141 @@
             "initiatives":[
                 {
                     "title": "Nature Clean-up",
-                    "activities":[
-                        {"title": "Beachcomber Weekend - Virgina Beach"},
-                        {"title": "Park Pick Up - Shady Grove City Park"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Beachcomber Weekend - Virgina Beach",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Park Pick Up - Shady Grove City Park",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           },
+                           {"title":  "Hour of Code Volunteer Event",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
                 },
                 {
                     "title": "Recycling",
-                    "activities":[
-                        {"title": "Plastic Bag Collection Centers"},
-                        {"title": "Soda to sneakers donation event"}                        
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Plastic Bag Collection Centers",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Soda to sneakers donation event",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
-                }
+                
+                                    
+                }               
+              
             ]
-        },
-        {
+        },{
             "title": "Physical Activity",
             "initiatives":[
                 {
                     "title": "Active Kids",
-                    "activities":[
-                        {"title": "Kids Beat Cancer Dance-a-thon"},
-                        {"title": "City Soccer Summer Camp Scholarship"},
-                        {"title": "Hour of Code Volunteer Event"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Kids Beat Cancer Dance-a-thon",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "City Soccer Summer Camp Scholarship",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
-                },
+                }  ,
                 {
                     "title": "Athlete in Everyone",
-                    "activities":[
-                        {"title": "Inspiring Story Award"},
-                        {"title": "Kids Prosthetic Program"}
+                    "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                    "goals":[
+                        {"amount":50, "descriptor":"Schools reached"},
+                        {"amount":20, "descriptor":"Laptops supplied"}
+                    ],
+                    "active":true,
+                    "events":[
+                        {"title": "Inspiring Story Award",
+                         "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                        "type":"scholarship",
+                        "goals":[
+                            {"amount":50, "descriptor":"Schools reached"},
+                            {"amount":20, "descriptor":"Laptops supplied"}
+                        ],
+                        "active":true
+                        },
+                        {"title": "Kids Prosthetic Program",
+                            "description":"Because activate scalable circular boots on the ground, thought partnership corporate social responsibility do-gooder change-makers. Humanitarian big data data, indicators mobilize, grit social capital. Progress, change-makers strengthening infrastructure, justice; corporate social responsibility correlation impact thought provoking. Uplift contextualize compelling impact",
+                           "type":"scholarship",
+                           "goals":[
+                               {"amount":50, "descriptor":"Schools reached"},
+                               {"amount":20, "descriptor":"Laptops supplied"}
+                           ],
+                           "active":true
+                           }
                     ]                    
-                }
+                }  
+              
             ]
-        }]
+        }
+        
+       
+        ]
     }
 }

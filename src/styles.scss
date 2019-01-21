@@ -72,3 +72,27 @@ h1, h2, h3 {
    /*  -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s; */
  }
+
+ .primary-button{
+    background-color: #9e005d;
+    color: white;
+    border-radius:0;
+    border-color: #9e005d;
+    outline: none;
+  box-shadow: none;
+  margin:10px;
+ }
+
+ .primary-button:hover, .primary-button:focus{
+    outline: none;
+  box-shadow: none;
+}
+
+ .default-button{
+
+ }
+
+ .default-button:hover{
+
+}
+

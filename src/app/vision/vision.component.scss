@@ -19,24 +19,39 @@
 }
 
 .pillar{
-   max-width: 250px;
-    height: 100%;
-    text-align: center;
-    // border: 1px solid red;
+   width: 220px;
+   height: 170px;      
    margin:20px 10px;
-    .pillar-text{
+   background:linear-gradient(to right, transparent, #aaa), url("../../assets/images/pillar1.jpg"); /* The image used */
+   background-color: rgb(139, 167, 177);  
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+    .pillar-text{       
         font-variant: small-caps;
         font-size: 2em;
-    }
+        color:white;   
+        padding:5px;    
+    }   
+    text-align: center;    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    border-bottom: 3px solid #25BCF4;
 }
 
 .section{
     background-color: #2d2d2d;
     margin:10px;
-    padding-bottom:40px;
+    margin-bottom: 40px;
+    padding: 10px;
 }
 
-
+.section-header{
+    margin-left:2px;
+    margin-top:5px;
+    font-variant: small-caps;
+}
 
 .list-item{
    // border-bottom: 1px solid #aaa;
