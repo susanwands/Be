@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-vision',
@@ -10,22 +12,31 @@ import { Component, OnInit } from '@angular/core';
 
 export class VisionComponent implements OnInit {
 
-  list = [
-    {'title': 'Something 1', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},
-    {'title': 'Something 2', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': true},
-    {'title': 'Something 3', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},
-    {'title': 'Something 4', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},
-    {'title': 'Something 5', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},
-    {'title': 'Something 6', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},
-    {'title': 'Something 7', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false}
-  ];
+  list = [];
 
-  constructor() { }
+  data;
+
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.getMockEvent().subscribe(res =>{
+      this.data = res.company;
+      this.data.pillars.forEach(pillar => {
+        pillar.initiatives.forEach(el => {
+          this.list.push(el);
+        });
+      });
+      console.log(this.list);
+    });
+
+    
   }
 
+  getMockEvent(): Observable<any> {
+    const api = this.http.get('../../assets/sampleData/because.json');
+    return api ;
+  }
   toggleDetails(index) {
-    this.list[index].display = !this.list[index].display;
+   this.list[index].display = !this.list[index].display;
   }
 }

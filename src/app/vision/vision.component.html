@@ -10,30 +10,16 @@
 </div>
 <div class="row justify-content-around align-items-center section">
   
-    <div class="col-auto">
+    <div class="col-auto" *ngFor="let pillar of data.pillars">
       <div class="pillar">
         <div class="pillar-text">
-          Education
+         {{pillar.title}}
         </div>
         
     </div>
   </div>
-  <div class="col-auto">
-    <div class="pillar">
-      <div class="pillar-text">
-       The Environment
-      </div>
-      
-  </div>
-</div>
-<div class="col-auto">
-  <div class="pillar">
-    <div class="pillar-text">
-     Physical Activity
-    </div>
-    
-</div>
-</div>
+
+
 </div>
 <div class="row section-header">
   <div class="col-12">
@@ -61,7 +47,7 @@
          </div>
          <div class="row">
             <div class="col-12 details" [class.show-me]="item.display" >
-                {{item.type}} , {{item.status}}
+                {{item.description}} 
               </div>
           </div>
        
