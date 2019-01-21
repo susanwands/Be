@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'app-vision',
+  templateUrl: './vision.component.html',
+  styleUrls: ['./vision.component.scss']
 })
 
 
 
-export class AboutComponent implements OnInit {
+export class VisionComponent implements OnInit {
 
   list = [
     {'title': 'Something 1', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false},

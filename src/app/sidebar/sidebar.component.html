@@ -1,42 +1,46 @@
-<div class="side-list">
-    
-      <a [routerLink]="['/home']" [routerLinkActive]="'isActive'">
-        <div class="side-link">
-          <i class="fab fa-houzz"></i>
-          <span class="link-text">Home</span>
-        </div>       
-      </a>
+<div class="side-list">       
         
-      <a [routerLink]="['/about']" [routerLinkActive]="'isActive'">
+      <a [routerLink]="['/vision']" [routerLinkActive]="'isActive'">
         <div class="side-link">
-          <i class="fab fa-stack-exchange"></i>
-          <span class="link-text">About</span>
+          <i class="fas fa-burn"></i>
+          <span class="link-text">Vision</span>
         </div>  
       </a>
        
-      <a [routerLink]="['/blog']" [routerLinkActive]="'isActive'">
+      <a [routerLink]="['/events']" [routerLinkActive]="'isActive'">
         <div class="side-link">
-          <i class="fas fa-blog"></i> 
-          <span class="link-text">Blog</span>
+          <i class="far fa-calendar-check"></i>
+          <span class="link-text">Events</span>
         </div>
       </a>
           
-      <a [routerLink]="['/contact']" [routerLinkActive]="'isActive'">
+      <a [routerLink]="['/stories']" [routerLinkActive]="'isActive'">
         <div class="side-link">
-          <i class="fas fa-envelope"></i> 
-          <span class="link-text">Contact</span>
+          <i class="fas fa-book"></i>
+          <span class="link-text">Stories</span>
         </div>  
       </a>
-       
-      <a [routerLink]="['/impact']" [routerLinkActive]="'isActive'">
+      <a [routerLink]="['/campaigns']" [routerLinkActive]="'isActive'">
         <div class="side-link">
           <i class="fas fa-bullseye"></i> 
+          <span class="link-text">Campaigns</span>
+        </div>  
+      </a>
+      <a [routerLink]="['/impact']" [routerLinkActive]="'isActive'">
+        <div class="side-link">
+          <i class="fas fa-chart-line"></i>
           <span class="link-text">Impact</span>
         </div>  
       </a>
-      <div class="side-social">
+      <a [routerLink]="['/profile']" [routerLinkActive]="'isActive'" class="side-social">
+        <div class="side-link">
+          <i class="fas fa-user-circle"></i>
+          <span class="link-text">Profile</span>
+        </div>  
+      </a>
+     <!--  <div class="side-social">
         <a href="#"><i class="fab fa-facebook-square"></i></a>
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-github-square"></i></a>
-      </div>
+      </div> -->
 </div>

@@ -330,18 +330,18 @@ module.exports = ".oval {\n  width: 250px;\n  height: 20px;\n  margin: 0 auto;\n
 /*!******************************************!*\
   !*** ./src/app/about/about.component.ts ***!
   \******************************************/
-/*! exports provided: AboutComponent */
+/*! exports provided: VisionComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VisionComponent", function() { return VisionComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
-var AboutComponent = /** @class */ (function () {
-    function AboutComponent() {
+var VisionComponent = /** @class */ (function () {
+    function VisionComponent() {
         this.list = [
             { 'title': 'Something 1', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false },
             { 'title': 'Something 2', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': true },
@@ -352,20 +352,20 @@ var AboutComponent = /** @class */ (function () {
             { 'title': 'Something 7', 'type': 'volunteer', 'status': 'active', 'open': 'yes', 'display': false }
         ];
     }
-    AboutComponent.prototype.ngOnInit = function () {
+    VisionComponent.prototype.ngOnInit = function () {
     };
-    AboutComponent.prototype.toggleDetails = function (index) {
+    VisionComponent.prototype.toggleDetails = function (index) {
         this.list[index].display = !this.list[index].display;
     };
-    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    VisionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-about',
             template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
             styles: [__webpack_require__(/*! ./about.component.scss */ "./src/app/about/about.component.scss")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], AboutComponent);
-    return AboutComponent;
+    ], VisionComponent);
+    return VisionComponent;
 }());
 
 
@@ -403,7 +403,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
-    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
+    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["VisionComponent"] },
     { path: 'blog', component: _blog_blog_component__WEBPACK_IMPORTED_MODULE_5__["BlogComponent"], children: [{ path: ':id', component: _post_post_component__WEBPACK_IMPORTED_MODULE_8__["PostComponent"] }] },
     { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"] },
     { path: 'impact', component: _impact_impact_component__WEBPACK_IMPORTED_MODULE_7__["ImpactComponent"] },
@@ -561,7 +561,7 @@ var AppModule = /** @class */ (function () {
                 _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
                 _social_social_component__WEBPACK_IMPORTED_MODULE_10__["SocialComponent"],
                 _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
-                _about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
+                _about_about_component__WEBPACK_IMPORTED_MODULE_12__["VisionComponent"],
                 _contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"],
                 _blog_blog_component__WEBPACK_IMPORTED_MODULE_14__["BlogComponent"],
                 _impact_impact_component__WEBPACK_IMPORTED_MODULE_15__["ImpactComponent"],
@@ -1036,7 +1036,7 @@ var WindowService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"side-list\">\r\n    \r\n      <a [routerLink]=\"['/home']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fab fa-houzz\"></i>\r\n          <span class=\"link-text\">Home</span>\r\n        </div>       \r\n      </a>\r\n        \r\n      <a [routerLink]=\"['/about']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fab fa-stack-exchange\"></i>\r\n          <span class=\"link-text\">About</span>\r\n        </div>  \r\n      </a>\r\n       \r\n      <a [routerLink]=\"['/blog']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-blog\"></i> \r\n          <span class=\"link-text\">Blog</span>\r\n        </div>\r\n      </a>\r\n          \r\n      <a [routerLink]=\"['/contact']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-envelope\"></i> \r\n          <span class=\"link-text\">Contact</span>\r\n        </div>  \r\n      </a>\r\n       \r\n      <a [routerLink]=\"['/impact']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-bullseye\"></i> \r\n          <span class=\"link-text\">Impact</span>\r\n        </div>  \r\n      </a>\r\n      <div class=\"side-social\">\r\n        <a href=\"#\"><i class=\"fab fa-facebook-square\"></i></a>\r\n        <a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\r\n        <a href=\"#\"><i class=\"fab fa-github-square\"></i></a>\r\n      </div>\r\n</div>\r\n"
+module.exports = "<div class=\"side-list\">\r\n    \r\n      <a [routerLink]=\"['/home']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fab fa-houzz\"></i>\r\n          <span class=\"link-text\">Home</span>\r\n        </div>       \r\n      </a>\r\n        \r\n      <a [routerLink]=\"['/about']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fab fa-stack-exchange\"></i>\r\n          <span class=\"link-text\">Vision</span>\r\n        </div>  \r\n      </a>\r\n       \r\n      <a [routerLink]=\"['/blog']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-blog\"></i> \r\n          <span class=\"link-text\">Blog</span>\r\n        </div>\r\n      </a>\r\n          \r\n      <a [routerLink]=\"['/contact']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-envelope\"></i> \r\n          <span class=\"link-text\">Contact</span>\r\n        </div>  \r\n      </a>\r\n       \r\n      <a [routerLink]=\"['/impact']\" [routerLinkActive]=\"'isActive'\">\r\n        <div class=\"side-link\">\r\n          <i class=\"fas fa-bullseye\"></i> \r\n          <span class=\"link-text\">Impact</span>\r\n        </div>  \r\n      </a>\r\n      <div class=\"side-social\">\r\n        <a href=\"#\"><i class=\"fab fa-facebook-square\"></i></a>\r\n        <a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\r\n        <a href=\"#\"><i class=\"fab fa-github-square\"></i></a>\r\n      </div>\r\n</div>\r\n"
 
 /***/ }),
 
